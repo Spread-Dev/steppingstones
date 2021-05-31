@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.scss";
 import "../../App.scss";
+import ChildrenCTA from "../../images/ChildrenCTA.jpg";
 
 const Header = () => {
     return (
@@ -15,7 +16,7 @@ const Header = () => {
                 <div className="btn enroll-btn header-btn">ENROLL NOW</div>
             </div>
             <div className="header-right">
-
+                <img src={ChildrenCTA} alt="smiling children" />
             </div>
         </div>
     )
