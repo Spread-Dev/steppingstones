@@ -9,17 +9,11 @@
     }
 }
 
-.title-box {
-    width: 238px;
-    padding-left: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-bottom: 50px;
-}
-
 .program-features {
     display: flex;
     flex-direction: column;
 }
 
+.title-container {
+    padding-left: 40px;
+}

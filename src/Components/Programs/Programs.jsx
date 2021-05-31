@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.scss";
-import Squiggly from "../../images/Squiggly.jpg";
 import ProgramData from "./data/ProgramData.js";
 import ProgramBlock from "./ProgramBlock/ProgramBlock.jsx";
+import TitleBox from "../Title/Title.jsx";
 
 
 const Programs = () => {
@@ -10,15 +10,13 @@ const Programs = () => {
     return (
 
         <div className="programs-container">
-            <div className="title-box">
-                <h1>Programs</h1>
-                <img src={Squiggly} alt="squiggly" width="79px" height="7.5px" />
+            <div className="title-container">
+                <TitleBox titleName="Programs" />
             </div>
             <div className="program-features">
                 {ProgramData.map(program => (
                     <ProgramBlock {...program} />
                 ))}
-
             </div>
         </div>
     )
