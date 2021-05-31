@@ -1,0 +1,91 @@
+.programs-container {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+}
+
+.title-box {
+    width: 238px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.row {
+    width: 90%;
+    display: flex;
+}
+
+.block-container {
+    display: flex;
+    justify-content: space-between;
+    &:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    &:nth-child(1) {
+        .top {
+            border-left: #FDA05F solid 5px;
+        }
+    }
+    &:nth-child(2) {
+        .top {
+        border-left: #FD5B67 solid 5px;
+        }
+    }
+    &:nth-child(3) {
+        .top {
+        border-left: #19CB3F solid 5px;
+        }
+    }
+    &:nth-child(1) {
+        .program-title {
+            color: #FDA05F;
+        }
+    }
+    &:nth-child(2) {
+        .program-title {
+            color: #FD5B67;
+        }
+    }
+    &:nth-child(3) {
+        .program-title {
+            color: #19CB3F;
+        }
+    }
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.program-features {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    padding-left: 15px;
+}
+
+.program-title {
+    font-size: 2rem;
+}
+
+.program-subtitle {
+    font-size: 1rem;
+}
+
+.note-item {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 30px;
+}
