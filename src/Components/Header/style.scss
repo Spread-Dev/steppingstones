@@ -1,47 +1,30 @@
 .header-container {
-    height: 40px;
+    margin-top: 150px;
     display: flex;
-    justify-content: space-between;
 }
 
 .header-left {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    h3 {
-        font-size: 1.125rem;
-        font-weight: 600;
+    width: 60%;
+    .header-cta {
+        word-wrap: normal;
+        font-size: 4rem;
+        line-height: 87px;
+        margin-bottom: 45px;
+
     }
-    h5 {
-        font-size: 0.75rem;
+    p {
+        font-size: 1rem;
         font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .header-btn {
+        width: 15%;
     }
 }
 
 .header-right {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .nav-item {
-        font-size: 1rem;
-        font-weight: normal;
-        cursor: pointer;
-    }
-
-}
-
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    border-radius: 5px;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.enroll-btn {
-    background-color: #615EED;
-    color: white;
+    width: 40%;
 }
