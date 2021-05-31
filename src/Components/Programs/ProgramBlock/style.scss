@@ -1,0 +1,74 @@
+$barPx: 3.5px;
+
+.block-container {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    &:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    &:nth-child(1) {
+        .top {
+            border-left: #FDA05F solid $barPx;
+        }
+        
+    }
+    &:nth-child(2) {
+        .top {
+        border-left: #FD5B67 solid $barPx;
+        }
+    }
+    &:nth-child(3) {
+        .top {
+        border-left: #19CB3F solid $barPx;
+        }
+    }
+    &:nth-child(1) {
+        .program-title {
+            color: #FDA05F;
+        }
+    }
+    &:nth-child(2) {
+        .program-title {
+            color: #FD5B67;
+        }
+    }
+    &:nth-child(3) {
+        .program-title {
+            color: #19CB3F;
+        }
+    }
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.program-title {
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 15px 0;
+}
+
+.program-subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.note-item {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.block-right {
+    max-width: 55%;
+}
