@@ -10,7 +10,7 @@ const programs = [
         subtitle: "Full day childcare for children birth to 18 months",
         noteList: ["Cribs/Mats are provided by the school.", "Daily reports about your little one and how their day was.",
             "A wide array of toys and climbers to keep your buddle stimulated.", "We constantly sanitize and disinfect the infant environment.",
-            "1 to 4 Teacher to child ratio"]
+            "1 to 4 Teacher to child ratio."]
     },
     {
         imgSrc: SmartBabby,
@@ -18,7 +18,7 @@ const programs = [
         title: "Toddlers",
         subtitle: "Full day childcare for 18 months to 30 months",
         noteList: ["Circle time each morning with flash cards learning letters, numbers, shapes, and objects", "Outside time offered three times a day, weather permitting",
-            "Daily art project to help build eye-hand coordination", "1 to 6 teacher to child ratio"]
+            "Daily art project to help build eye-hand coordination", "1 to 6 teacher to child ratio."]
     },
     {
         imgSrc: Friends4Ever,

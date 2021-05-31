@@ -8,7 +8,6 @@ import TitleBox from "../Title/Title.jsx";
 const Programs = () => {
 
     return (
-
         <div className="programs-container">
             <div className="title-container">
                 <TitleBox titleName="Programs" />
