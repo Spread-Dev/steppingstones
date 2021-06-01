@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.scss";
+import ColorTitle from "../../ColorTitle/ColorTitle.jsx";
+import Subtitle from "../../Subtitle/Subtitle.jsx";
 
 const ProgramBlock = ({ imgSrc, imgAlt, title, subtitle, noteList }) => {
 
@@ -11,8 +13,10 @@ const ProgramBlock = ({ imgSrc, imgAlt, title, subtitle, noteList }) => {
             <div className="block-right">
                 <div className="text-container">
                     <div className="top">
-                        <h3 className="program-title">{title}</h3>
-                        <h6 className="program-subtitle">{subtitle}</h6>
+                        <div className="program-title">
+                            <ColorTitle title={title} />
+                        </div>
+                        <Subtitle subtitle={subtitle} />
                     </div>
                     <div className="bot">
                         <ul>

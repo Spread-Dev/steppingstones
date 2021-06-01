@@ -4,9 +4,11 @@ $barPx: 3.5px;
     margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
+
     &:nth-child(even) {
         flex-direction: row-reverse;
     }
+
     &:nth-child(1) {
         .top {
             border-left: #FDA05F solid $barPx;
@@ -23,6 +25,7 @@ $barPx: 3.5px;
         border-left: #19CB3F solid $barPx;
         }
     }
+
     &:nth-child(1) {
         .program-title {
             color: #FDA05F;
@@ -38,6 +41,10 @@ $barPx: 3.5px;
             color: #19CB3F;
         }
     }
+
+    .program-title {
+        padding: 15px 0;
+    }
 }
 
 .text-container {
@@ -48,17 +55,6 @@ $barPx: 3.5px;
 .top {
     padding-left: 15px;
     margin-bottom: 25px;
-}
-
-.program-title {
-    font-size: 2rem;
-    font-weight: 400;
-    padding: 15px 0;
-}
-
-.program-subtitle {
-    font-size: 1rem;
-    font-weight: 400;
 }
 
 .note-item {
