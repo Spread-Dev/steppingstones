@@ -1,0 +1,17 @@
+.tuition-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.columns-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.side-bar {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
