@@ -8,9 +8,6 @@ import "./style.scss";
 const Tuition = () => {
 
     const [isWeekly, setIsWeekly] = useState(true);
-    // const [lastClicked, setLa]
-
-
 
     return (
         <div className="tuition-container">
