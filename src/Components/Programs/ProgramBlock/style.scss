@@ -69,3 +69,17 @@ $barPx: 3.5px;
 .block-right {
     max-width: 55%;
 }
+
+.block-left {
+    width: 40%;
+
+    img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+}
+
+.bot {
+    margin-left: 23px;
+}
