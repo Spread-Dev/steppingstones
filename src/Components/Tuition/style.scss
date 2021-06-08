@@ -13,11 +13,13 @@
 .side-bar {
     width: 15%;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
 }
 
 .tuition-data {
     display: flex;
+    height: 630px; 
 }
 
 .tuition-title-container {
