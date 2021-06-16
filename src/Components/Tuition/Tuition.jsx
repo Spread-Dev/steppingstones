@@ -18,7 +18,7 @@ const Tuition = () => {
                     <Subtitle subtitle="Non-refundable" />
                 </div>
                 <div className="time-button-container" >
-                    <div name="" onClick={() => setIsWeekly(true)} className={`btn ${isWeekly ? "tuition-btn-selected" : "tuition-btn"} border-left`}>Weekly</div>
+                    <div onClick={() => setIsWeekly(true)} className={`btn ${isWeekly ? "tuition-btn-selected" : "tuition-btn"} border-left`}>Weekly</div>
                     <div onClick={() => setIsWeekly(false)} className={`btn ${!isWeekly ? "tuition-btn-selected" : "tuition-btn"} border-right`}>Monthly</div>
                 </div>
             </div>

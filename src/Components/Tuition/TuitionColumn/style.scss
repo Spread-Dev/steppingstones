@@ -1,4 +1,30 @@
 .column-container {
     display: flex;
     flex-direction: column;
+    text-align: center;
+
+    .color-title-container {
+        margin-bottom: 15px;
+    }
+
+    &:nth-child(1) {
+        .color-title-container {
+            color: #19CB3F;
+        }
+        background: rgba(25, 203, 63, 0.03);
+    }
+
+    &:nth-child(2) {
+        .color-title-container {
+            color: #FD5B67;
+        }
+        background: rgba(253, 91, 103, 0.03);
+    }
+
+    &:nth-child(3) {
+        .color-title-container {
+            color: #FDA05F;
+        }
+        background: rgba(253, 160, 95, 0.03);
+    }
 }
