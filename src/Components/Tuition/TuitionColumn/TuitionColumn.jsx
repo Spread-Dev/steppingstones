@@ -15,11 +15,19 @@ const TuitionColumn = ({ groupName,
     return (
 
         <div className="column-container">
-            <div className="color-title-container" >
-                <ColorTitle title={groupName} />
+            <div className="column-header">
+                <div className="column-header-top">
+                    <div className="color-title-container" >
+                        <ColorTitle title={groupName} />
+                    </div>
+                    <SubTitle subtitle={groupAge} />
+                </div>
+                <div className="column-header-bottom">
+                    <div className="horizontal-bar">
+                        <p>{fullDay}</p>
+                    </div>
+                </div>
             </div>
-            <SubTitle subtitle={groupAge} />
-
         </div>
     )
 }
