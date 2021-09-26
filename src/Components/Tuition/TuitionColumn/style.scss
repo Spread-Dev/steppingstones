@@ -38,25 +38,42 @@
         }
     }
 
+    .horizontal-bar {
+        height: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .column-header {
         height: 135px;
 
         .column-header-top {
-            height: 90%;
+            height: 75%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
         .column-header-bottom {
-            height: 10%;
-            .horizontal-bar {
-                height: 35px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
+            height: 25%;
         }
     }
+
+    .price-cell {
+        height: 108px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+        p {
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+    }
+    .divider {
+        border-bottom: solid rgba(23, 24, 55, 0.1) 2px;
+    }
+
 }
 

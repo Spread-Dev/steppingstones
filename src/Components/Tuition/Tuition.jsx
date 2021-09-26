@@ -24,11 +24,11 @@ const Tuition = () => {
             </div>
             <div className="tuition-data">
                 <div className="side-bar">
-                    <div className="cluster">
+                    <div className="cluster border-margin">
                         <h5>Full Week</h5>
                         <h7>Mon - Fri</h7>
                     </div>
-                    <div className="cluster">
+                    <div className="cluster border-margin">
                         <h5>3 Days</h5>
                         <h7>Mon, Wed, Fri</h7>
                     </div>
@@ -37,7 +37,7 @@ const Tuition = () => {
                         <h7>Tue, Thr</h7>
                     </div>
                     {/* TODO ==> Add break here for half day row  */}
-                    <div className="cluster">
+                    <div className="cluster margin-horizontal-row">
                         <h5>Full Week</h5>
                         <h7>Mon - Fri</h7>
                     </div>

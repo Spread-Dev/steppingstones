@@ -28,7 +28,40 @@ const TuitionColumn = ({ groupName,
                     </div>
                 </div>
             </div>
+            <PriceCell price={fullWeekPriceFullDay} divider={true} />
+            <PriceCell price={threeDaysPrice} divider={true} />
+            <PriceCell price={twoDaysPrice} divider={false} />
+            {
+                fullWeekPriceHalfDay != null
+                    ? (
+                        <>
+                            <div className="horizontal-bar">
+                                <p>{halfDay}</p>
+                            </div>
+                            <PriceCell price={fullWeekPriceHalfDay} divider={false} />
+                        </>
+                    )
+                    : null
+            }
+
         </div>
+    )
+}
+
+const PriceCell = ({price, divider}) => {
+    return (
+        <>
+            <div className={`price-cell${divider ? " divider" : ""}`}>
+                <p>${price}</p>
+                {/*<div className={`price-cell${divider ? " divider" : ""}`}>*/}
+                {/*</div>*/}
+            </div>
+            {/*{divider*/}
+            {/*    ? <div className="divider"/>*/}
+            {/*    : null*/}
+            {/*}*/}
+        </>
+
     )
 }
 

@@ -11,15 +11,14 @@
 }
 
 .side-bar {
+    margin-top: 135px;
     width: 15%;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
 }
 
 .tuition-data {
     display: flex;
-    height: 630px; 
 }
 
 .tuition-title-container {
@@ -72,6 +71,23 @@
 
 .cluster {
     height: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h5 {
+        line-height: 36px;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}
+
+.border-margin {
+    margin-bottom: 2px;
+}
+
+.margin-horizontal-row {
+    margin-top: 34px;
 }
 
 .cluster-top {
