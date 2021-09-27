@@ -4,16 +4,20 @@ import Programs from "./Components/Programs/Programs.jsx";
 import Tuition from "./Components/Tuition/Tuition.jsx";
 import './App.scss';
 import Enrollment from "./Components/Enrollment/Enrollment";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div className="container">
-        <Nav />
-        <Header />
-        <Programs />
-        <Tuition />
-        <Enrollment />
-    </div>
+      <>
+        <div className="container">
+            <Nav />
+            <Header />
+            <Programs />
+            <Tuition />
+            <Enrollment />
+        </div>
+        <Footer />
+      </>
   );
 }
 

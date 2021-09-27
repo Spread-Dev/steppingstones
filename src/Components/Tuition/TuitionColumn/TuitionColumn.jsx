@@ -53,13 +53,7 @@ const PriceCell = ({price, divider}) => {
         <>
             <div className={`price-cell${divider ? " divider" : ""}`}>
                 <p>${price}</p>
-                {/*<div className={`price-cell${divider ? " divider" : ""}`}>*/}
-                {/*</div>*/}
             </div>
-            {/*{divider*/}
-            {/*    ? <div className="divider"/>*/}
-            {/*    : null*/}
-            {/*}*/}
         </>
 
     )
