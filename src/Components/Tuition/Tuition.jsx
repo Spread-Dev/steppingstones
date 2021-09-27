@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { tuitionData } from "./data/tuitionData.js";
+import {tuitionNotes} from "./data/tuitionNotes";
 import TuitionColumn from "./TuitionColumn/TuitionColumn.jsx";
 import Title from "../Title/Title.jsx";
 import Subtitle from "../Subtitle/Subtitle.jsx";
+import Notes from "../Notes/Notes";
 import "./style.scss";
 
 const Tuition = () => {
@@ -36,7 +38,6 @@ const Tuition = () => {
                         <h5>2 Days</h5>
                         <h7>Tue, Thr</h7>
                     </div>
-                    {/* TODO ==> Add break here for half day row  */}
                     <div className="cluster margin-horizontal-row">
                         <h5>Full Week</h5>
                         <h7>Mon - Fri</h7>
@@ -44,11 +45,12 @@ const Tuition = () => {
                 </div>
                 <div className="columns-container">
                     {tuitionData.map(dataObj => (
-
                         <TuitionColumn {...dataObj} />
-
                     ))}
                 </div>
+            </div>
+            <div className="tuition-notes">
+                <Notes noteList={tuitionNotes} />
             </div>
         </div>
     )

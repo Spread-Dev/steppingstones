@@ -2,6 +2,7 @@ import React from "react";
 import "./style.scss";
 import ColorTitle from "../../ColorTitle/ColorTitle.jsx";
 import Subtitle from "../../Subtitle/Subtitle.jsx";
+import Notes from "../../Notes/Notes";
 
 const ProgramBlock = ({ imgSrc, imgAlt, title, subtitle, noteList }) => {
 
@@ -19,11 +20,7 @@ const ProgramBlock = ({ imgSrc, imgAlt, title, subtitle, noteList }) => {
                         <Subtitle subtitle={subtitle} />
                     </div>
                     <div className="bot">
-                        <ul>
-                            {noteList.map(note => (
-                                <li className="note-item">{note}</li>
-                            ))}
-                        </ul>
+                        <Notes noteList={noteList} />
                     </div>
                 </div>
             </div>
