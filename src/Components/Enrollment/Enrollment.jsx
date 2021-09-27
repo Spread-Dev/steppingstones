@@ -7,7 +7,7 @@ import TextParagraph from "../TextParagraph/TextParagraph";
 const Enrollment = ({props}) => {
 
     return (
-        <div className="enrollment-container">
+        <div className="enrollment-container" id="enroll-hash">
             <div className="enrollment-title-container">
                 <Title titleName="Enrollment" />
             </div>

@@ -6,7 +6,7 @@ import TextParagraph from "../TextParagraph/TextParagraph";
 const Footer = ({props}) => {
 
     return (
-        <div className="footer-container">
+        <div className="footer-container" id="contact-hash">
             <div className="footer-top">
                 <div className="nav-wrapper">
                     <Nav />

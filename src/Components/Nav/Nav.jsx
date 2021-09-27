@@ -11,10 +11,18 @@ const Nav = () => {
                 <h5>Learning Center & Infant Care</h5>
             </div>
             <div className="nav-right">
-                <h3 className="nav-item">PROGRAMS</h3>
-                <h3 className="nav-item">TUITION</h3>
-                <h3 className="nav-item">CONTACT</h3>
-                <div className="btn enroll-btn">ENROLL</div>
+                <a href="#programs-hash">
+                    <h3 className="nav-item">PROGRAMS</h3>
+                </a>
+                <a href="#tuition-hash">
+                    <h3 className="nav-item">TUITION</h3>
+                </a>
+                <a href="#contact-hash">
+                    <h3 className="nav-item">CONTACT</h3>
+                </a>
+                <a href="#enroll-hash">
+                    <div className="btn enroll-btn">ENROLL</div>
+                </a>
             </div>
         </div>
     )

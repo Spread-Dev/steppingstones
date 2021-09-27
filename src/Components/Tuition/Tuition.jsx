@@ -12,7 +12,7 @@ const Tuition = () => {
     const [isWeekly, setIsWeekly] = useState(true);
 
     return (
-        <div className="tuition-container">
+        <div className="tuition-container" id="tuition-hash">
             <div className="tuition-title-container" >
                 <Title titleName="Tuition" />
                 <div className="subtitles-container">

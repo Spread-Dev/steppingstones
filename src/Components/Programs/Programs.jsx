@@ -8,7 +8,7 @@ import Title from "../Title/Title.jsx";
 const Programs = () => {
 
     return (
-        <div className="programs-container">
+        <div className="programs-container" id="programs-hash">
             <div className="title-container">
                 <Title titleName="Programs" />
             </div>
