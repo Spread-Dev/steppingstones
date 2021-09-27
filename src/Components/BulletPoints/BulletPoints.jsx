@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 
-const Notes = ({noteList}) => {
+const BulletPoints = ({noteList}) => {
 
     return (
         <ul>
@@ -12,4 +12,4 @@ const Notes = ({noteList}) => {
     )
 }
 
-export default Notes;
+export default BulletPoints;

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.scss";
 import Squiggly from "../../images/Squiggly.jpg";
 
-const TitleBox = ({ titleName }) => {
+const Title = ({ titleName }) => {
 
     return (
         <div className="title-box">
@@ -14,4 +14,4 @@ const TitleBox = ({ titleName }) => {
     )
 }
 
-export default TitleBox;
+export default Title;

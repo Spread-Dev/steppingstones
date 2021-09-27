@@ -2,7 +2,7 @@ import React from "react";
 import "./style.scss";
 import ColorTitle from "../../ColorTitle/ColorTitle.jsx";
 import Subtitle from "../../Subtitle/Subtitle.jsx";
-import Notes from "../../Notes/Notes";
+import BulletPoints from "../../BulletPoints/BulletPoints";
 
 const ProgramBlock = ({ imgSrc, imgAlt, title, subtitle, noteList }) => {
 
@@ -20,7 +20,7 @@ const ProgramBlock = ({ imgSrc, imgAlt, title, subtitle, noteList }) => {
                         <Subtitle subtitle={subtitle} />
                     </div>
                     <div className="bot">
-                        <Notes noteList={noteList} />
+                        <BulletPoints noteList={noteList} />
                     </div>
                 </div>
             </div>

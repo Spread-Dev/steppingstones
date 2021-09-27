@@ -1,0 +1,42 @@
+.enrollment-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  .enrollment-title-container {
+    display: flex;
+    margin-bottom: 45px;
+  }
+  .enrollment-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .enrollment-text-container {
+      width: 55%;
+      p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 30px;
+      }
+      .enrollment-first-paragraph {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .enrollment-bottom {
+    display: flex;
+    padding-top: 22px;
+    .enrollment-button {
+      width: 209px;
+      margin-right: 12px;
+    }
+    .packet {
+      background-color: #615EED;
+      color: white;
+    }
+    .handbook {
+      background-color: white;
+      color: #615EED;
+    }
+  }
+}

@@ -4,7 +4,7 @@ import {tuitionNotes} from "./data/tuitionNotes";
 import TuitionColumn from "./TuitionColumn/TuitionColumn.jsx";
 import Title from "../Title/Title.jsx";
 import Subtitle from "../Subtitle/Subtitle.jsx";
-import Notes from "../Notes/Notes";
+import BulletPoints from "../BulletPoints/BulletPoints";
 import "./style.scss";
 
 const Tuition = () => {
@@ -50,7 +50,7 @@ const Tuition = () => {
                 </div>
             </div>
             <div className="tuition-notes">
-                <Notes noteList={tuitionNotes} />
+                <BulletPoints noteList={tuitionNotes} />
             </div>
         </div>
     )
