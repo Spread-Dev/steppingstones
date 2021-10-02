@@ -13,7 +13,9 @@ const Header = () => {
                     and Grow
                 </h1>
                 <p>Positive environment, social activities, and healthy snacks!</p>
-                <div className="btn enroll-btn header-btn">ENROLL NOW</div>
+                <a href="#enroll-hash">
+                    <div className="btn enroll-btn header-btn">ENROLL NOW</div>
+                </a>
             </div>
             <div className="header-right">
                 <img src={ChildrenCTA} alt="smiling children" />
